@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment variables (CRITICAL - Contains private keys!)
+.env
+backend/.env
+*.env.local
+
+# Build outputs
+dist/
+build/
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Hardhat artifacts (optional - can be large)
+artifacts/
+cache/
+typechain-types/
+
+# Sensitive data
+transactions.csv
+*.csv
